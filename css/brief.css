@@ -5,6 +5,9 @@
 }
 
 
+
+
+
 header .container {
     border-bottom: 1px solid #DCE0E5;
   }
@@ -106,6 +109,11 @@ header .container {
 
 
 
+
+
+
+
+
   /* project-section css code */
   .projects .breadcrump-block {
     padding: 12px 0;
@@ -172,81 +180,50 @@ header .container {
 
 
 
+  /* brief-section css code */
 
-
-  /* news-section css code */
-
-  .section-news .inner{
-    margin-bottom: 32px;
-
+  .brief{
+    padding-bottom: 140px;
   }
 
+  .brief .inner{
+    padding-top:71px ;
+  }
 
-.inner .img-box{
-    position: relative;
-}
+  .inner .img-top{
+    margin-bottom: 20px;
+  }
 
-.inner .img-box img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    
-}
+  .inner h3{
+    color: #465061;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 700;
+    letter-spacing: 1.6px;
+  }
 
-.inner .img-box .date p{
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 500;
-    color: #B4B8BF;
-    position: absolute;
-    background: #fff;
-    padding: 14px 30px;
-    left: 0;
-    bottom: -16px;
-    width: 180px;
-    clip-path: polygon(0 0, 60% 0, 100% 100%, 0% 100%)
-}
-.inner .news-text{
-    padding-top: 20px;
-
-}
-  
-
-
-.inner .news-text h4{
-    font-size:24px;
+  .inner p{
+    font-size: 20px;
     line-height: 30px;
-    font-weight: 600;
-    letter-spacing: 0.4px;
-    color: #000;
-}
+    font-weight: 300;
+    color: #465061;
+    letter-spacing: 0.8px;
+    text-align: justify;
+    width: 80%;
+  }
 
-
-.inner .news-text p{
-    font-size: 18px;
-    line-height: 26px;
-    height: 400px;
-    color: #1A2E51;
-    display: -webkit-inline-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-    overflow: hidden;
-    height: 75px;
-
-    /* bu kod uzunluq ucun tenzimlemde lazimdir */
-}
-
-  /* news-section css code */
+  /* brief-section css code */
 
 
 
 
 
-
+  
 
 /* footer css code */
 
 footer {
+  
     background: #1A2E51;
     height: auto;
   }
@@ -315,6 +292,4 @@ footer {
     color: #fff;
     padding: 0px 5px;
   }
-  
-  /*# sourceMappingURL=header.css.map */
-  
+  /* footer css code */
