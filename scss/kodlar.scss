@@ -35,9 +35,7 @@ header{
                     height: 100%;
                     object-fit: cover;
                 
-                    &:hover{
-                    
-                    }
+                   
                 }
 
              }
@@ -158,15 +156,15 @@ header{
             font-weight: 500;
             color: #1A2E51;
             &::after{
-            content: '';
-            width: 5px;
-            height: 25px;
-            position: absolute;
-            background: #F5B458;
-            top: 41%;
-            left: -20px;
-            transform: rotate(-25deg);
-            clip-path: polygon(0 0, 40% 0, 100% 99%, 56% 100%);
+                content: '';
+                width: 5px;
+                height: 25px;
+                position: absolute;
+                background: #F5B458;
+                top: 41%;
+                left: -12px;
+                transform: rotate(-20deg);
+              clip-path: polygon(0 0, 28% 0, 85% 100%, 55% 100%);
 
              
              
@@ -309,17 +307,16 @@ padding: 20px 0px;
             font-weight: 500;
             color: #1A2E51;
             &::after{
-            content: '';
-            width: 8px;
-            height: 25px;
-            position: absolute;
-            background: #F5B458;
-            top: 71%;
-            left: -20px;
-            transform: rotate(-15deg);
-            clip-path: polygon(0 0, 40% 0, 100% 99%, 56% 100%);
-
-             
+                content: '';
+                width: 5px;
+                height: 25px;
+                position: absolute;
+                background: #F5B458;
+                top: 71%;
+                left: -12px;
+                transform: rotate(-20deg);
+              clip-path: polygon(0 0, 28% 0, 85% 100%, 55% 100%);
+    
              
             }
         }
@@ -416,15 +413,15 @@ padding: 20px 0px;
             font-family: Arial, Helvetica, sans-serif;
             position: relative;
                 &::after{
-                content: '';
-                width: 7px;
-                height: 25px;
-                position: absolute;
-                background: #F5B458;
-                top: 17%;
-                left: -16px;
-                transform: rotate(-25deg);
-                clip-path: polygon(0 0, 40% 0, 100% 99%, 56% 100%);
+                    content: '';
+                    width: 5px;
+                    height: 25px;
+                    position: absolute;
+                    background: #F5B458;
+                    top: 16%;
+                    left: -12px;
+                    transform: rotate(-20deg);
+                  clip-path: polygon(0 0, 28% 0, 85% 100%, 55% 100%);
         }
 
              
@@ -490,14 +487,14 @@ padding: 20px 0px;
         position: relative;
         &::after{
             content: '';
-            width: 7px;
+            width: 5px;
             height: 25px;
             position: absolute;
             background: #F5B458;
-            top: 17%;
-            left: 41%;
-            transform: rotate(-25deg);
-            clip-path: polygon(0 0, 40% 0, 100% 99%, 56% 100%);;
+            top: 20%;
+            left: 42%;
+            transform: rotate(-20deg);
+           clip-path: polygon(0 0, 28% 0, 85% 100%, 55% 100%);
 
         }
 
