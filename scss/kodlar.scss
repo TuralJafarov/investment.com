@@ -6,6 +6,7 @@
 }
 
 
+
 // header html code
 header{
     background: #1A2E51;
@@ -355,6 +356,43 @@ padding: 20px 0px;
      height: 100%;
      object-fit: cover;}
 
+    }
+
+    .inner{
+        .img-top{
+            position: relative;
+             p{
+                font-size: 18px;
+                line-height: 26px;
+                font-weight: 600;
+                color: #fff;
+                letter-spacing: 0.72px;
+                text-transform: uppercase;
+                font-family: 'Montserrat';
+                position: absolute;
+                bottom: 30px;
+                left: 28px;
+                z-index: 999;
+             }
+        }
+
+        .img-bottom{
+            position: relative;
+            p{
+                font-size: 18px;
+                line-height: 26px;
+                font-weight: 600;
+                color: #fff;
+                letter-spacing: 0.72px;
+                text-transform: uppercase;
+                font-family: 'Montserrat';
+                position: absolute;
+                bottom: 30px;
+                left: 28px;
+                z-index: 999;
+            }
+        }
+   
     }
    
 

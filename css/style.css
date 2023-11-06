@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+@import url(./font.css);
+
+
 header {
   background: #1A2E51;
   height: 100vh;
@@ -33,6 +36,7 @@ header nav .nav-list .nav-drop li a {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  font-family: "Montserrat";
 }
 header nav .nav-list li {
   list-style: none;
@@ -53,12 +57,14 @@ header nav .nav-list li a {
   font-weight: 600;
   letter-spacing: 0.84px;
   transition: all 0.3s linear;
+  font-family: "Montserrat";
 }
 header nav .nav-list li a img {
   transition: all 0.3s linear;
 }
 header nav .nav-list li a:hover {
   color: #F5B458;
+  font-family: "Montserrat";
 }
 header nav .nav-list li a:hover img {
   transform: rotate(-180deg);
@@ -77,12 +83,14 @@ header .boxes .left-box p {
   line-height: 24px;
   font-weight: 600;
   color: #fff;
+  font-family: "Montserrat";
 }
 header .boxes .left-box h1 {
   font-size: 45px;
   line-height: 56px;
   font-weight: 600;
   color: #fff;
+  font-family: "Montserrat";
 }
 header .boxes .right-box {
   width: 50%;
@@ -112,6 +120,7 @@ header .boxes button {
   line-height: 32px;
   font-weight: 500;
   color: #1A2E51;
+  font-family: "Montserrat";
 }
 .section-why .choose p::after {
   content: "";
@@ -134,6 +143,7 @@ header .boxes button {
   line-height: 20px;
   font-weight: 500;
   text-transform: uppercase;
+  font-family: "Montserrat";
 }
 .section-why .inner {
   width: 70%;
@@ -153,7 +163,7 @@ header .boxes button {
   font-size: 28px;
   line-height: 30px;
   font-weight: 500;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat";
   padding-bottom: 16px;
   color: #1A2E51;
 }
@@ -161,7 +171,7 @@ header .boxes button {
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat";
   color: #1A2E51;
 }
 .project .main-project .right-side {
@@ -183,6 +193,7 @@ header .boxes button {
   font-size: 18px;
   line-height: 20px;
   font-weight: 500;
+  font-family: "Montserrat";
 }
 
 .priority .direction {
@@ -198,6 +209,7 @@ header .boxes button {
   line-height: 32px;
   font-weight: 500;
   color: #1A2E51;
+  font-family: "Montserrat";
 }
 .priority .direction .frst::after {
   content: "";
@@ -215,6 +227,7 @@ header .boxes button {
   line-height: 20px;
   font-weight: 400;
   text-transform: uppercase;
+  font-family: "Montserrat";
 }
 .priority .img-top {
   padding-top: 40px;
@@ -234,6 +247,38 @@ header .boxes button {
   height: 100%;
   object-fit: cover;
 }
+.priority .inner .img-top {
+  position: relative;
+}
+.priority .inner .img-top p {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 0.72px;
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  position: absolute;
+  bottom: 30px;
+  left: 28px;
+  z-index: 999;
+}
+.priority .inner .img-bottom {
+  position: relative;
+}
+.priority .inner .img-bottom p {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 0.72px;
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  position: absolute;
+  bottom: 30px;
+  left: 28px;
+  z-index: 999;
+}
 
 .why-section {
   margin-top: 120px;
@@ -246,7 +291,7 @@ header .boxes button {
   font-size: 24px;
   line-height: 32px;
   font-weight: 400;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat";
   position: relative;
 }
 .why-section .inner2 .scd::after {
@@ -273,6 +318,7 @@ header .boxes button {
   margin: 0px;
   color: #1A2E51;
   padding-bottom: 10px;
+  font-family: "Montserrat";
 }
 .why-section .inner2 .frs {
   text-transform: uppercase;
@@ -280,6 +326,7 @@ header .boxes button {
   position: relative;
   left: 200px;
   display: inline-block;
+  font-family: "Montserrat";
 }
 
 .section-our {
@@ -294,6 +341,7 @@ header .boxes button {
   font-weight: 500;
   text-transform: uppercase;
   position: relative;
+  font-family: "Montserrat";
 }
 .section-our h3::after {
   content: "";
@@ -316,6 +364,7 @@ header .boxes button {
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
+  font-family: "Montserrat";
 }
 .section-our a {
   text-decoration: none;
@@ -326,6 +375,7 @@ header .boxes button {
   border: none;
   margin-left: 45%;
   margin-top: 15px;
+  font-family: "Montserrat";
 }
 
 .section-partner {
@@ -369,6 +419,7 @@ footer .foooter-boxes .box1 h3 {
   font-weight: normal;
   letter-spacing: 0.06px;
   text-transform: uppercase;
+  font-family: "Montserrat";
 }
 footer .foooter-boxes .box1 li {
   list-style: none;
@@ -381,6 +432,7 @@ footer .foooter-boxes .box1 a {
   font-weight: 400;
   display: inline-block;
   padding: 5px 0px;
+  font-family: "Montserrat";
 }
 footer .footer-bottom {
   padding: 16px 0;
@@ -397,7 +449,8 @@ footer .footer-bottom .bottom-text {
 footer .footer-bottom .bottom-text h3 {
   font-size: 14px;
   line-height: 20px;
-  font-weight: 400;
+  font-weight: 400; 
+  font-family: "Montserrat";
 }
 footer .footer-bottom .bottom-text ul {
   display: flex;
