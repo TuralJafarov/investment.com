@@ -5,10 +5,7 @@
 }
 
 
-body{
-  height: 2000px;
-}
-
+@import url(./font.css);
 
 
 header .container {
@@ -39,6 +36,7 @@ header .container {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    font-family: 'Montserrat';
   }
   header nav .nav-list .nav-drop li a:hover {
     background: #F5B458;
@@ -61,7 +59,7 @@ header .container {
     line-height: 16px;
     font-weight: 600;
     letter-spacing: 0.84px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat';
     transition: all 0.3s linear;
   }
   header nav .nav-list li a img {
@@ -87,12 +85,14 @@ header .container {
     line-height: 24px;
     font-weight: 600;
     color: #fff;
+    font-family: 'Montserrat';
   }
   header .boxes .left-box h1 {
     font-size: 45px;
     line-height: 56px;
     font-weight: 600;
     color: #fff;
+    font-family: 'Montserrat';
   }
   header .boxes .right-box {
     width: 50%;
@@ -136,6 +136,7 @@ header .container {
     line-height: 20px;
     font-weight: 600;
     text-transform: uppercase;
+    font-family: 'Montserrat';
   }
   .projects .breadcrump-block ul li a:hover {
     color: #F5B458;
@@ -175,6 +176,7 @@ header .container {
     padding-top: 80px;
     display: inline-block;
     position: relative;
+    font-family: 'Montserrat';
   }
   .section-text  h2::after {
     content: "";
@@ -192,7 +194,9 @@ header .container {
     font-size: 20px;
     line-height: 30px;
     font-weight: 400;
-    letter-spacing: 0.8px;color: #465061;
+    letter-spacing: 0.8px;
+    color: #465061;
+    font-family: 'Montserrat';
   }
     /* section-text html code */
 
@@ -217,6 +221,7 @@ header .container {
       font-weight: 500;
       color: #465061;
       letter-spacing: 1.68px;
+      font-family: 'Montserrat';
     }
 
     .inner .top-inner h3{
@@ -225,6 +230,7 @@ header .container {
       font-weight: 700;
       letter-spacing: 0.48px;
       color: #465061;
+      font-family: 'Montserrat';
     }
 
     .inner .bottom-inner h3{
@@ -233,6 +239,7 @@ header .container {
       font-weight: 700;
       letter-spacing: 0.48px;
       color: #465061;
+      font-family: 'Montserrat';
     }
 
 
@@ -247,6 +254,7 @@ header .container {
       line-height: 24px;
       font-weight: 400;
       color: #465061;
+      font-family: 'Montserrat';
     }
  
     .inner .bottom-inner{
@@ -277,6 +285,7 @@ header .container {
     letter-spacing: 1.08px;
     text-transform: uppercase;
     color: #465061;
+    font-family: 'Montserrat';
    }
 
    .inner h5{
@@ -286,6 +295,7 @@ header .container {
     letter-spacing: 0.36px;
     color: #465061;
     padding-top: 28px;
+    font-family: 'Monrserrat';
 
    }
 
@@ -299,6 +309,7 @@ header .container {
     color: #465061;
     padding-bottom: 35px;
     position: relative;
+    font-family: 'Monrserrat';
    }
 
 
@@ -323,6 +334,7 @@ header .container {
     text-decoration: none;
     padding-bottom: 20px;
     cursor: pointer;
+    font-family: 'Monrserrat';
    }
 
    .inner a img{
@@ -341,6 +353,7 @@ header .container {
     letter-spacing: 1.08px;
     text-transform: uppercase;
     color: #465061;
+    font-family: 'Monrserrat';
    }
 
    .information-section .info-text h5{
@@ -351,6 +364,7 @@ header .container {
     color: #465061;
     padding-bottom: 20px;
     width: 90%;
+    font-family: 'Monrserrat';
    } 
 
 
@@ -363,6 +377,7 @@ header .container {
     color: #465061;
     padding-bottom: 35px;
     position: relative;
+    font-family: 'Monrserrat';
    }
 
 
@@ -390,6 +405,7 @@ header .container {
     letter-spacing: 1.08px;
     text-transform: uppercase;
     color: #465061;
+    font-family: 'Monrserrat';
    }
    /* informationsection css code */
 
@@ -422,6 +438,7 @@ footer .foooter-boxes .box1 h3 {
   font-weight: normal;
   letter-spacing: 0.06px;
   text-transform: uppercase;
+  font-family: 'Montserrat';
 }
 footer .foooter-boxes .box1 li {
   list-style: none;
@@ -434,6 +451,7 @@ footer .foooter-boxes .box1 a {
   font-weight: 400;
   display: inline-block;
   padding: 5px 0px;
+  font-family: 'Montserrat';
 }
 footer .footer-bottom {
   padding: 16px 0;
@@ -451,6 +469,7 @@ footer .footer-bottom .bottom-text h3 {
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
+  font-family: 'Montserrat';
 }
 footer .footer-bottom .bottom-text ul {
   display: flex;
@@ -463,6 +482,7 @@ footer .footer-bottom .bottom-text ul li {
 footer .footer-bottom .bottom-text ul li a {
   display: inline-block;
   padding: 10px;
+  font-family: 'Montserrat';
 }
 footer .footer-bottom p a {
   text-decoration: none;

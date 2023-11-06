@@ -5,6 +5,8 @@
 }
 
 
+@import url(./font.css);
+
 header .container {
     border-bottom: 1px solid #DCE0E5;
   }
@@ -33,6 +35,7 @@ header .container {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    font-family: 'Montserrat';
   }
   header nav .nav-list .nav-drop li a:hover {
     background: #F5B458;
@@ -55,7 +58,7 @@ header .container {
     line-height: 16px;
     font-weight: 600;
     letter-spacing: 0.84px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat';
     transition: all 0.3s linear;
   }
   header nav .nav-list li a img {
@@ -81,12 +84,14 @@ header .container {
     line-height: 24px;
     font-weight: 600;
     color: #fff;
+    font-family: 'Montserrat';
   }
   header .boxes .left-box h1 {
     font-size: 45px;
     line-height: 56px;
     font-weight: 600;
     color: #fff;
+    font-family: 'Montserrat';
   }
   header .boxes .right-box {
     width: 50%;
@@ -101,6 +106,7 @@ header .container {
     margin-top: 20px;
     width: 200px;
     height: 48px;
+    font-family: 'Montserrat';
   }
   /*header html code  */
 
@@ -126,9 +132,11 @@ header .container {
     line-height: 20px;
     font-weight: 600;
     text-transform: uppercase;
+    font-family: 'Montserrat';
   }
   .projects .breadcrump-block ul li a:hover {
     color: #F5B458;
+    font-family: 'Montserrat';
   }
   .projects .breadcrump-block ul li a:nth-child(2):after {
     color: red;
@@ -154,6 +162,7 @@ header .container {
     padding-top: 80px;
     display: inline-block;
     position: relative;
+    font-family: 'Montserrat';
   }
   .projects  h2::after {
     content: "";
@@ -204,7 +213,8 @@ header .container {
     left: 0;
     bottom: -16px;
     width: 180px;
-    clip-path: polygon(0 0, 60% 0, 100% 100%, 0% 100%)
+    clip-path: polygon(0 0, 60% 0, 100% 100%, 0% 100%);
+    font-family: 'Montserrat';
 }
 .inner .news-text{
     padding-top: 20px;
@@ -219,6 +229,7 @@ header .container {
     font-weight: 600;
     letter-spacing: 0.4px;
     color: #000;
+    font-family: 'Montserrat';
 }
 
 
@@ -232,6 +243,7 @@ header .container {
     -webkit-line-clamp: 2;
     overflow: hidden;
     height: 75px;
+    font-family: 'Montserrat';
 
     /* bu kod uzunluq ucun tenzimlemde lazimdir */
 }
@@ -268,6 +280,7 @@ footer {
     font-weight: normal;
     letter-spacing: 0.06px;
     text-transform: uppercase;
+    font-family: 'Montserrat';
   }
   footer .foooter-boxes .box1 li {
     list-style: none;
@@ -280,6 +293,7 @@ footer {
     font-weight: 400;
     display: inline-block;
     padding: 5px 0px;
+    font-family: 'Montserrat';
   }
   footer .footer-bottom {
     padding: 16px 0;
@@ -297,6 +311,8 @@ footer {
     font-size: 14px;
     line-height: 20px;
     font-weight: 400;
+
+    font-family: 'Montserrat';
   }
   footer .footer-bottom .bottom-text ul {
     display: flex;
