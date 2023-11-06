@@ -453,9 +453,17 @@ padding: 20px 0px;
             .frs{
                 text-transform: uppercase;
                 color: #1A2E51;
-                 position: relative;
+               position: relative;
                 left: 200px;
                 display: inline-block;
+                border: 1px solid #F5B458;
+                padding: 10px;
+                transition: all 0.3s linear;
+                
+                &:hover{
+                    background: #F5B458;
+                    cursor: pointer;
+                }
         
                 
             }
